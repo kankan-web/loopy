@@ -5,7 +5,7 @@ import { Bell } from 'lucide-react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 
-import Dropdown from '@/components/common/dropdown';
+import Dropdown from '@/components/dropdown';
 
 export interface IList {
   id: number;

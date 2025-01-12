@@ -13,7 +13,7 @@ import {
 } from 'lucide-react';
 import { QRCodeCanvas } from 'qrcode.react';
 
-import Popover from '@/components/common/popover';
+import Popover from '@/components/popover';
 
 interface ShareButtonProps {
   buttonStyle: string;

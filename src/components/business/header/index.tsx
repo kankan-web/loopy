@@ -7,7 +7,7 @@ import Notification from './notification';
 import SearchInput from './searchInput';
 import UserCenter from './userCenter';
 
-import Button from '@/components/common/button';
+import Button from '@/components/button';
 
 interface MenuItem {
   name: string;

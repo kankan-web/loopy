@@ -3,7 +3,7 @@ import { CheckCircle2 } from 'lucide-react';
 
 import TabLayout from './index';
 
-import Button from '@/components/common/button';
+import Button from '@/components/button';
 
 const meta = {
   title: 'Components/TabLayout',
@@ -56,9 +56,9 @@ export const WithRightContent: Story = {
         size="sm"
         onClick={() => console.log('clicked')}
         leftIcon={<CheckCircle2 className="w-3.5 h-3.5" />}
-        className="rounded-full border-[#e5e6eb] text-[#86909c] 
+        className="rounded-full border-[#e5e6eb] text-[#86909c]
           hover:border-[#1e80ff] hover:text-[#1e80ff] hover:bg-[#1e80ff]/5
-          dark:border-gray-700 dark:text-gray-400 
+          dark:border-gray-700 dark:text-gray-400
           dark:hover:border-blue-500 dark:hover:text-blue-400 dark:hover:bg-blue-500/5
           transition-all duration-200"
       >
@@ -85,9 +85,9 @@ export const NotificationExample: Story = {
         size="sm"
         onClick={() => console.log('标记全部已读')}
         leftIcon={<CheckCircle2 className="w-3.5 h-3.5" />}
-        className="rounded-full border-[#e5e6eb] text-[#86909c] 
+        className="rounded-full border-[#e5e6eb] text-[#86909c]
           hover:border-[#1e80ff] hover:text-[#1e80ff] hover:bg-[#1e80ff]/5
-          dark:border-gray-700 dark:text-gray-400 
+          dark:border-gray-700 dark:text-gray-400
           dark:hover:border-blue-500 dark:hover:text-blue-400 dark:hover:bg-blue-500/5
           transition-all duration-200"
       >

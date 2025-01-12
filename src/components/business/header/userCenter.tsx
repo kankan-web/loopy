@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-import Dropdown from '@/components/common/dropdown';
+import Dropdown from '@/components/dropdown';
 
 export default function UserCenter() {
   // 触发器内容

@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Search, X, Clock, Sparkles, History } from 'lucide-react';
 
 import { cn } from '@/utils';
-import Input from '@/components/common/input';
+import Input from '@/components/input';
 import useSearchInput from '@/hooks/useSearchInput';
 
 const SearchInput: React.FC<{

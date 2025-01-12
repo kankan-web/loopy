@@ -11,7 +11,7 @@ import {
   DrawerClose,
 } from './index';
 
-import Button from '@/components/common/button';
+import Button from '@/components/button';
 import { cn } from '@/utils';
 
 const meta = {

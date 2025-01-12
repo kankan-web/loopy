@@ -2,7 +2,7 @@
 
 import { use } from 'react';
 
-import TabLayout from '@/components/common/tabLayout';
+import TabLayout from '@/components/tabLayout';
 import UserProfileHeader from '@/components/business/userProfileHeader';
 
 export default function UserLayout({

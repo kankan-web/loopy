@@ -2,8 +2,8 @@
 
 import { CheckCircle2 } from 'lucide-react';
 
-import TabLayout from '@/components/common/tabLayout';
-import Button from '@/components/common/button';
+import TabLayout from '@/components/tabLayout';
+import Button from '@/components/button';
 
 export default function NotificationLayout({ children }: { children: React.ReactNode }) {
   const navItems = [
@@ -24,9 +24,9 @@ export default function NotificationLayout({ children }: { children: React.React
       size="sm"
       onClick={handleReadAll}
       leftIcon={<CheckCircle2 className="w-3.5 h-3.5" />}
-      className="rounded-full border-[#e5e6eb] text-[#86909c] 
+      className="rounded-full border-[#e5e6eb] text-[#86909c]
         hover:border-[#1e80ff] hover:text-[#1e80ff] hover:bg-[#1e80ff]/5
-        dark:border-gray-700 dark:text-gray-400 
+        dark:border-gray-700 dark:text-gray-400
         dark:hover:border-blue-500 dark:hover:text-blue-400 dark:hover:bg-blue-500/5
         transition-all duration-200"
     >
