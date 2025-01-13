@@ -59,3 +59,5 @@ export default function Tooltip({ children, title, enabled = true, shortcut }: T
     </TooltipPrimitive.Tooltip>
   );
 }
+
+export const TooltipProvider = TooltipPrimitive.TooltipProvider;
