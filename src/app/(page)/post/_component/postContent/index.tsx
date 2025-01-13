@@ -22,21 +22,21 @@ const PostHeader: React.FC<{ post: Post }> = ({ post }) => {
             UAENA
           </a>
         </div>
-        <div className="meta-box shrink-0 text-sm flex items-center text-post-text_3 space-x-4">
+        <div className="flex items-center space-x-4 shrink-0 text-sm  text-gray-500">
           <time dateTime={post.created_at} title={post.created_at} className="time">
             {getShortDate(post.created_at)}
           </time>
           <div className="flex items-center">
-            <Eye className="mr-1" />
+            <Eye className="mr-1" size={16} />
             <span>3,135</span>
           </div>
           <div className="flex items-center">
-            <Clock className="mr-1" />
+            <Clock className="mr-1" size={16} />
             <span>阅读{postReadingTime(post.content)}分钟</span>
           </div>
           {post.category ? (
             <div className="flex items-center">
-              <LibraryBig className="mr-1" />
+              <LibraryBig className="mr-1" size={16} />
               <span>专栏：{post.category.name}</span>
             </div>
           ) : null}
